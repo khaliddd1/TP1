@@ -1,0 +1,6 @@
+
+
+
+2. git init
+Dépôt Git vide initialisé dans /home/pltguest/Bureau/TP1/.git/
+hit initialise un nouveau depot dans le répertoire courant 
