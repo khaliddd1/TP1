@@ -2,5 +2,68 @@
 
 
 2. git init
+<<<<<<< HEAD
 Dépôt Git vide initialisé dans /home/pltguest/Bureau/TP1/.git/
 hit initialise un nouveau depot dans le répertoire courant 
+=======
+Dépôt Git vide initialisé dans /home/pltguest/Bureau/TP1/EXERCICE_1/.git/
+la commande 'git init' a été utilisée pour initialiser le répertoire courant en tant que dépot GIT. Cela signifie que le répertoire est maintenant sous le controle d'un gestionnaire de version.
+3. on crée un un fichier git par la commande 'touch git.txt'
+4. Quand on tappe la commande 'git status' il m'envoie que: 
+   Sur la branche master
+
+Aucun commit
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	git.txt
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+
+ce qui signifie que mon fichier git.txt est non suivi 
+
+5. Mais quand on ajoute la commande 'git add git.txt' ce qui nous permet d'ajouter des modifications à la zone de préparation
+
+ et on voie: Sur la branche master
+
+Aucun commit
+
+Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : git.txt
+
+ce qui signifie que mon fichier git.txt est maintenant dans la zone de préparation 
+
+6. la commande 'git commit -m"Un superMessage' est utilisée pour enregistere les modifications dans dépot Git 
+
+
+7.  avec 'git status'
+Sur la branche master
+rien à valider, la copie de travail est propre
+
+ca veux dire qu'il n'y a pas de modifications non suivies.
+
+8. on voie: 
+ommit 20effe693bebf823118252d1d956ca8eedb0fc64 (HEAD -> master)
+Author: khaliddd1 <ouchaouirkhalid@gmail.com>
+Date:   Mon Nov 20 15:06:47 2023 +0100
+
+    Un superMessage
+
+diff --git a/git.txt b/git.txt
+new file mode 100644
+index 0000000..a2e8dda
+--- /dev/null
++++ b/git.txt
+@@ -0,0 +1,6 @@
++
++
++
++2. git init
++Dépôt Git vide initialisé dans /home/pltguest/Bureau/TP1/.git/
++hit initialise un nouveau depot dans le répertoire courant 
+
+
+avec la commande executer il permet d'afficher l'historique des commits avec les détails des modifications apportées
+>>>>>>> f8b2a09 (Un super message)
