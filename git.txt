@@ -67,3 +67,6 @@ index 0000000..a2e8dda
 
 avec la commande executer il permet d'afficher l'historique des commits avec les détails des modifications apportées
 >>>>>>> f8b2a09 (Un super message)
+
+
+11. je vois que les fichiers de mon dépôt local ont été téléchargés sur GitHub
